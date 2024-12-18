@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
         hisChart.update()
         desChart.update()
       })
-    .catch(error => console.error('Errore nel caricamento dei dati:', error));
+    .catch(error => console.error('Error:', error));
 
 });
 
