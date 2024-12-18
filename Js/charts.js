@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4");
 
 
-  //Carica il file JSON locale
   fetch("Js/infoPhase4.json")
     .then(response => response.json())
     .then(data => {
@@ -47,7 +46,6 @@ function countVals(obj, value) {
   }
 }
 
-// Usa i dati del JSON per creare il grafico
 const ctx = document.getElementById('usg').getContext('2d');
 const usgChart = new Chart(ctx, {
   type: 'doughnut', // Tipo di grafico
