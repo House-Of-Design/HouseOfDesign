@@ -40,20 +40,19 @@ function countVals(obj, value) {
   const index = obj.labels.indexOf(value);
   if (index !== -1) {
     obj.data[index]++;
-    console.log(`Dato aggiornato: ${obj.labels[index]} -> ${obj.data[index]}`);
   } else {
-    console.error(`Valore "${value}" non trovato tra le etichette.`);
+    console.error(`Value "${value}" not found.`);
   }
 }
 
 const ctx = document.getElementById('usg').getContext('2d');
 const usgChart = new Chart(ctx, {
-  type: 'doughnut', // Tipo di grafico
+  type: 'doughnut', 
   data: {
-    labels: usage.labels, // Etichette dal JSON
+    labels: usage.labels, 
     datasets: [{
       label: 'usage',
-      data: usage.data, // Dati dal JSON
+      data: usage.data, 
       backgroundColor: ['rgb(214, 5, 78, 1)','rgb(214, 5, 78, 0.9)', 'rgb(214, 5, 78, 0.8)',
         'rgb(214, 5, 78, 0.7)'],
       borderColor: 'rgba(255, 255, 255, 1)',
@@ -86,12 +85,12 @@ const usgChart = new Chart(ctx, {
 const cty = document.getElementById('his').getContext('2d');
 
 const hisChart = new Chart(cty, {
-  type: 'doughnut', // Tipo di grafico
+  type: 'doughnut', 
   data: {
-    labels: hist.labels, // Etichette dal JSON
+    labels: hist.labels, 
     datasets: [{
       label: 'history',
-      data: hist.data, // Dati dal JSON
+      data: hist.data,
       backgroundColor: ['rgb(214, 5, 78, 1)','rgb(214, 5, 78, 0.9)', 'rgb(214, 5, 78, 0.8)',
         'rgb(214, 5, 78, 0.7)','rgb(214, 5, 78, 0.6)'],
       borderColor: 'rgba(255, 255, 255, 1)',
@@ -123,12 +122,12 @@ const hisChart = new Chart(cty, {
 const ctz = document.getElementById('des').getContext('2d');
 
 const desChart = new Chart(ctz, {
-  type: 'doughnut', // Tipo di grafico
+  type: 'doughnut', 
   data: {
-    labels: designer.labels, // Etichette dal JSON
+    labels: designer.labels, 
     datasets: [{
       label: 'designer',
-      data: designer.data, // Dati dal JSON
+      data: designer.data, 
       backgroundColor: ['rgb(214, 5, 78, 1)','rgb(214, 5, 78, 0.9)', 'rgb(214, 5, 78, 0.8)',
         'rgb(214, 5, 78, 0.7)','rgb(214, 5, 78, 0.6)','rgb(214, 5, 78, 0.5)','rgb(214, 5, 78, 0.4)'],
       borderColor: 'rgba(255, 255, 255, 1)',
