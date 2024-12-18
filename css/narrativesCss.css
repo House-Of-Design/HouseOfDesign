@@ -291,7 +291,7 @@ a.tell-more, a.tell-less {
 }
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:728px) {
     .timeline{
         display: block;
         margin: 260px 0; 
@@ -299,7 +299,7 @@ a.tell-more, a.tell-less {
 
     ul{ 
         flex-direction: row;
-        gap: 10px !important; /* Spaziatura tra gli elementi */
+        gap: 10px !important; 
     }
     
     li{
@@ -375,24 +375,24 @@ a.tell-more, a.tell-less {
     }
 
     li {
-        flex: 1 1 auto; /* Lascia che gli elementi si ridimensionino dinamicamente */
+        flex: 1 1 auto; 
         width: 120%;
-        padding: 0 5px; /* Riduci il padding per evitare sovrapposizioni */
+        padding: 0 5px; 
     }
 
     li p {
-        top: -26em; /* Modifica la posizione verticale per maggiore spazio */
+        top: -26em; 
         max-width: 20em ;
         min-width: 8rem ;
         max-height: 21em ;
         min-height: 19em ;
-        font-size: 11px; /* Riduci il font */
+        font-size: 11px; 
         block-size: fit-content;
         width: fit-content;
     }
 
     .timeline-line {
-        width: 100%; /* Mantieni la linea allineata senza sovrapposizioni */
+        width: 100%; 
 
     }
     a.tell-more{
