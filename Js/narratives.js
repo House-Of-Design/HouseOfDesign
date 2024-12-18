@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
+/*spaces narrative*/
 const hiddenElements = document.querySelectorAll(".content_that_appears");
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -231,7 +231,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 
-
+/*usage narrative*/
 $('.carousel').carousel({
     interval: 2000
 }
