@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", async function (event) {
     .then(response => response.json())
     .then(data => {
         items = data.items
-        console.log(items)
         for (var item of items) {
           var info = item.info
           countVals(usage, info.Usage)
@@ -15,9 +14,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
           countVals(designer, info.Designer)
           
         }
-        console.log(usage.data)
-        console.log(hist.data)
-        console.log(designer.data)
+
         usgChart.update()
         hisChart.update()
         desChart.update()
