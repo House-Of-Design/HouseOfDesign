@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href ="css/style1.css" >
+    <link href="css/basicStyling.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Js/objects.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title id="header">Object</title>
+   
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+</head>
+<body>
+    <nav class="z-2">
+        <a href="index.html" class="graphiclogo showsmall"><img src="images/logo.png" alt="Logo" class="nav-logo"></a>
+        <div class="items_left">
+          <a href="documentation.html">Documentation</a>
+          <a href="aboutus.html">About us</a>
+         
+        </div>
+        <a href="index.html" class="textlogo">House of design</a>
+    
+        <div class="items_right">
+          <a href="narratives.html">Narratives</a>
+          <a href="objs.html" class="youAreHere">Objects</a>
+          <a href="map.html">Map</a>
+        </div>
+    </nav>
+    <div id="main" class="container mt-5">
+        <div class="row pt-5">
+            <div id="Img" class="col-xl-7 align-items-center pe-5 col-lg-12">
+                <img id="wireframeImg" class="img-fluid" src="rendered images/mixedAlgol.jpg" alt=""/>
+            </div>
+            <div id="mainInfo" class="col-xl-5 align-items-center ps-5 pt-5 col-lg-12">
+                <h1 id="fullHeader" class="ps-3">ALGOL 11</h1>
+                <p id="type-info" class="ps-3">PORTABLE TV</p>
+                <div id="briefDesc" class="ps-3">
+                    <p>Algol 11 has always been there, with its bold way of presenting itself, totally turned towards us,
+                         portable to be like all the things you fall in love with, inseparable</p>
+                </div>
+                <div id="keyWords" class="p-3">
+                    <p class="d-inline">Bold</p><i class="bi bi-dot"></i><p class="d-inline">Ergonomic</p>
+                    <i class="bi bi-dot"></i><p class="d-inline">Unique</p>
+                </div>
+                <div class="tableContainer container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <table class="mainMD">
+                                <tbody>
+                                    <tr id="DesignerRow" class="narrativeButton">
+                                        <th class="">Author</th><td id="Designer">Zanuso, Marco</td>
+                                    </tr>
+                                    <tr id="SpaceRow" class="narrativeButton">
+                                        <th  class="">Space</th><td id="Space">Living room</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <table class="mainMD">
+                                <tbody>
+                                    <tr id="UsageRow" class="narrativeButton">
+                                        <th class="">Usage</th><td id="Usage">Object</td>
+                                    </tr>
+                                    <tr id="HistoryRow" class="narrativeButton">
+                                        <th class="">Date</th><td id="History">1964</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="otherMetadata" class="container py-5">
+        <div class="py-5 px-3">
+            <h2>Key Information</h2>
+            <div class="row px-2">
+                <div class="col-xl-6 col-md-12 p-0">
+                    <table id="otherMD1" class="table table-borderless">
+                        <tbody>
+                            <tr><th>DATE PROJECT</th><th>DATE CREATION</th><th>DIMENSION</th></tr>
+                            <tr><td id="Date of Project">1964</td>
+                                <td id="Date of Production">1965</td>
+                                <td id="Dimensions">26x30x35</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xl-6 col-md-12 p-0">
+                    <table id="otherMD2" class="table table-borderless">
+                        <tbody>
+                            <tr><th>COMPANY</th>
+                                <th>MATERIAL</th><th>TYPE</th></tr>
+                            <tr>
+                                <td id="Company">Brionvega</td>
+                                <td id="Material">Metal</td>
+                                <td id="Type">Portable TV</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="navigation" class="z-1 container-fluid sticky-bottom text-center px-5 bg-body">
+        <div class="row mx-lg-4 mx-md-1 pb-5">
+        <button href="#" type="button" class="col-sm-3 col-xs-12 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonPrevious">Previous</button>
+        <p id="narrative" class="col-sm-6 col-xs-12 lg-px-3"></p>
+        <button href="#" type="button" class="col-sm-3 col-xs-12 btn btn-outline-dark btn-sm rounded-0 p-2 prevNxt" id="buttonNext">Next</button>
+        </div>
+    </div>
+    <div id="descCarosel" class="container-fluid gx-0 px-0 mx-0 w-100">
+        <div class="row w-100 gx-0 px-0 mx-0 align-items-center">
+            <div id="description" class="px-5 col-xl-6 col-md-12 text-end">
+                <p id="shortInfo">A great piece of industrial design created by Marco Zanuso and Richard Sapper in 1964 for Brionvega, 
+                    an Italian electronics company. Unique, futuristic design and practical functionality, symbol of 1960s 
+                    innovation and style.</p>
+                    <!--<button type="button" id="button" class="btn btn-outline-dark btn-sm">More</button>-->
+                <p id="longerInfo"></p>
+                <p id="fullInfo"></p>
+            </div>
+            <div id="bImg" class="col-xl-6 col-md-12 px-0">
+                <img id="bottomImg" class="img-fluid w-100" src=""/>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="images/logoWhite.png" alt="logo variation white">
+        <div class="right">
+          <div class="links">
+            <a href="aboutus.html">About Us</a>
+            <a href="documentation.html">Documentation</a>
+            <a href="disclamer.html">Disclaimer</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="social">
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-threads"></i>
+            <i class="bi bi-github"></i>
+          </div>
+          <p>All copyright on the typographic and layout choices are 2024 © Mohamed Iheb Ouerghi, Niccolò Molinati, Virginia D'Antonio, Giorgia Umana</p>
+        </div>
+      </footer>
+</body>
+</html>

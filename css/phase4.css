@@ -1,0 +1,354 @@
+
+:root {
+	--fv-nav-height: 4em;
+	--fv-main-height: calc(100vh - var(--fv-nav-height));
+			
+	--fv-card-header-height: 3.5em;
+	--fv-card-footer-height: 3.5em;
+
+	--fv-card-body-height: calc( 
+		var(--fv-main-height) - 
+		var(--fv-card-header-height) - 
+		var(--fv-card-footer-height) -
+		1em
+	) ;
+}
+
+@media (max-width:600px) {
+	.card {
+		width: 95vw;
+		left: 2.5vw; 
+	}
+
+
+}
+@media (min-width:600px) {
+	.card {
+		width: 70vw;
+		left: 15vw; 
+	}
+
+
+}
+
+/* https://stackoverflow.com/questions/6534473/how-can-i-make-the-width-of-my-figcaption-match-the-width-of-the-img-inside */
+
+figure {
+	display: table;
+	padding: 0.3em;
+	border: solid blue 1px;
+	margin: 1em;
+	max-width: 33%; 
+}
+
+figure:nth-of-type(odd) {
+	float:right;
+}
+figure:nth-of-type(even) {
+	float:left;
+}
+figcaption {
+	display: table-caption; 
+	caption-side: bottom ;
+	font-size: 85%;
+	font-style: italic; 
+	text-align: center; 
+}
+
+figure img {
+	max-width: 50vw; 
+}
+
+
+main {
+	height: var(--fv-main-height) !important;
+}
+
+.card-header {
+	height: var(--fv-card-header-height) !important; 	
+}
+
+.card-body {
+	height: var(--fv-card-body-height) !important; 	
+	overflow-y: scroll; 
+}
+
+.card-footer {
+	height: var(--fv-card-footer-height) !important; 	
+}
+
+.limitHeight {
+	max-height: 50vh !important; 
+	width: auto; 
+}
+/* https://stackoverflow.com/questions/19024218/bootstrap-3-collapse-change-chevron-icon-on-click */
+#dataExpanderIcon[aria-expanded=true] .bi-chevron-bar-right {
+   display: none;
+}
+#dataExpanderIcon[aria-expanded=false] .bi-chevron-bar-down {
+   display: none;
+}
+
+/*basic styling*/
+*{font-family: "Poppins", sans-serif;
+	font-weight:300;
+	font-style: normal;}
+
+
+/*Header*/
+nav {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 100;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    font-size: 33px;
+    color: #F50045;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.youAreHere{font-weight:450;}
+
+/*Footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 800;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links{
+    display: flex;
+    gap: 30px;
+
+}
+
+footer .right .links a{
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover{
+    color: #fff;
+
+}
+
+footer .right .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+footer .right .social i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+}
+
+footer .right .social i:hover{
+    color:#F50045 ;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    nav{
+        padding: 0 40px;
+    }
+
+    footer{
+        padding: 100px 40px;
+    }
+
+    footer h3{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    
+    footer .links a{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    nav a.logo{
+        font-size: 28px;
+    }
+
+    nav .links a{
+        font-size: 14px;
+    }
+
+
+    footer{
+        flex-direction: column;
+        padding: 60px 40px;
+    }
+
+    footer h3{
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    footer .right{
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    nav{
+        padding: 0 20px;
+    }
+
+    nav a.logo{
+        display: none;
+    }
+
+    nav .links a{
+        font-size: 12px;
+    }
+
+    nav .login button{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+
+    footer{
+        padding: 40px 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    
+
+}
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+#header>div {padding-top:1%;
+    padding-bottom: 5%;}
+#footer {background-color: black;}
+#footer>div {padding-top:5%;
+    padding-bottom: 5%;}   
+div#mainInfo * {padding-top: 2%;
+            }
+div#mainInfo {margin-bottom: 20%;}
+p#type {padding-left: 3%;}
+div#mainInfo h1,h3,div#briefDesc {padding-left: 3%;}
+
+div#otherMetadata * {padding-top: 1%;}
+
+div.tableContainer {text-align: center;}
+
+table.mainMD {border-collapse: collapse;
+            table-layout: fixed;
+            width: 100%;
+}
+
+nav#headerNav a:hover {color: #f50045 !important;}
+nav#inTheFooter a,div#social a {color: white !important;}
+nav#inTheFooter a:hover,div#social a:hover {color: #f50045 !important;}
+div#social i {height: 200%, !important; 
+    width: auto !important;}
+footer#footer div {padding:2%}
+
+table.mainMD tr {border: solid 1px black;
+            display:flex;
+            justify-content: space-between;
+            align-items: center !important;
+            margin-bottom: 10px;
+            padding:15px;}
+
+table.mainMD th {text-align: left;}
+
+
+table.mainMD tr:hover {background-color: #f50045;
+                    color:white;
+            border: solid 1px #f50045;}
+
+table#otherMD {max-width: 100%;}
+table#otherMD th,td {font-size: small !important;
+            padding:1% !important;
+            padding-top: 4% !important;
+            }
+
+div#descCarosel {margin-top: 10%;
+            border-top: solid 1px black;}
+
+div#description {padding: 5%;
+            padding-top: 10%;
+            border-right: solid 1px black;}
+#button {border-radius: 0%;}
+#button:hover {background-color: #f50045;
+    color:white;
+border: solid 1px #f50045;}
