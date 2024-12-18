@@ -7,7 +7,7 @@ gsap.set(".textlogohome", {
 
 ScrollTrigger.create({
 	animation: gsap.to(".textlogohome", {
-		top: "45px",
+		top: "40px",
 		scale: 0.18,
 		ease: "power1.out",
 		color: "#F50045",
