@@ -154,12 +154,6 @@ function createInfoTable(item) {
 			var value = item.info[key];
 			var id = key + "Row"
 			inner(key, item.info[key], true);
-			//var row = document.getElementById(key).innerHTML;
-			//console.log(key, id, variable);
-			//button = '<a class="button" role="button" id="'+key+'Button'+'" href="#" onclick="changeNarrative1(\'' + key + '\',\'' + value + '\')">' + variable + '</a>';
-
-			//console.log(button)
-			//inner(key, button, true);
 		}
 	}
 	$(document).ready(function () {
@@ -167,7 +161,6 @@ function createInfoTable(item) {
 			var narrative = $(this).find("td").attr("id");
 			var value = $(this).find("td").text();
 			changeNarrative1(narrative, value);
-			console.log(narrative, value)
 		});
 	});
 

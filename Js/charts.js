@@ -2,12 +2,10 @@ document.addEventListener("DOMContentLoaded", async function (event) {
 	console.log("Ready to start with phase 4");
 
 
-  //Carica il file JSON locale
   fetch("Js/infoPhase4.json")
     .then(response => response.json())
     .then(data => {
         items = data.items
-        console.log(items)
         for (var item of items) {
           var info = item.info
           countVals(usage, info.Usage)
@@ -15,14 +13,12 @@ document.addEventListener("DOMContentLoaded", async function (event) {
           countVals(designer, info.Designer)
           
         }
-        console.log(usage.data)
-        console.log(hist.data)
-        console.log(designer.data)
+
         usgChart.update()
         hisChart.update()
         desChart.update()
       })
-    .catch(error => console.error('Errore nel caricamento dei dati:', error));
+    .catch(error => console.error('Error:', error));
 
 });
 
@@ -50,7 +46,6 @@ function countVals(obj, value) {
   }
 }
 
-// Usa i dati del JSON per creare il grafico
 const ctx = document.getElementById('usg').getContext('2d');
 const usgChart = new Chart(ctx, {
   type: 'doughnut', // Tipo di grafico
