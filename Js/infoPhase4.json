@@ -45,7 +45,7 @@
         },
         {
             "@sort": "anthropus",
-            "shortName": "Anthropus",
+            "shortName": "Antropus",
             "image": "images/firstImages/firstantropus.png",
             "secondImage": "images/objects/16.png",
             "keywords": "Innovative, Sculptural, Comfortable",
@@ -174,7 +174,7 @@
             "image": "images/firstImages/firstmarocca.png",
             "secondImage": "images/objects/morocca.png",
             "keywords": "Elegant, Minimalist, Functional",
-            "intro": "As a recall to tradition, Morocca maintains a strong relationship between modernity and tradition. Keeping mass production in mind, the philosophy of this chair’s design embodies this logic.",
+            "intro": "As a recall to tradition, Marocca maintains a strong relationship between modernity and tradition. Keeping mass production in mind, the philosophy of this chair’s design embodies this logic.",
             "info": {
                 "Name": "Marocca",
                 "Type": "Chair",
@@ -189,14 +189,14 @@
                 "Date of Production":"1987",
                 "Company": "De Padova"
             },
-            "shortInfo": "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
+            "shortInfo": "The Marocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
             "longerInfo": [
-                "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
-                "Designed in 1987 by Vico Magistretti, Morocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair."
+                "The Marocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
+                "Designed in 1987 by Vico Magistretti, Marocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair."
             ],
             "fullInfo": [
-                "The Morocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
-                "Designed in 1987 by Vico Magistretti, Morocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair.",
+                "The Marocca features a minimalist yet refined design, having a warm, natural wood frame emphasises clean lines and a structured form. Through the gentle curve of the backrest and legs, this chair’s sturdiness enables for both stability and visual appeal. The seat itself creates a contrast with the light wood that makes it blend easily into various settings.",
+                "Designed in 1987 by Vico Magistretti, Marocca’s backrest has two horizontal slats that curve slightly inward, which give an open airy look without discarding support. We see more curvature with the armrests which curve to the front. A slight flare of the legs make for more stability and a graceful stance to the chair.",
                 "Additionally, through the use of horizontal stretchers connecting the legs, the designer was able to add more durability without taking away from the simplicity of the chair. Being a harmonious blend of form and function, a true embodiment of traditional design ethos that maintains a balance of comfort, aesthetic and practicality. This is reflected in the conversations between Vico Magistretti and Cesare Cassina, where designer and manufacturer were in close contact and attempted to relate the two processes of fabricating a timeless piece of furniture and designing it."
             ]
         },
@@ -519,8 +519,8 @@
             "shortName": "Tonietta",
             "image": "images/firstImages/firsttonietta.png",
             "secondImage": "images/objects/tonietta.png",
-            "keywords": "Simple, Symbolic, Virtusistic",
-            "intro": "Tonietta charms with its simple and archetypic design, embodiying a concept of forniture pruned from fruitless branches. What emerges is a virtuosistic example of a design that balances on itself.",
+            "keywords": "Simple, Symbolic, Virtuosistic",
+            "intro": "Tonietta charms with its simple and archetypic design, embodiying a concept of furniture pruned from fruitless branches. What emerges is a virtuosistic example of a design that balances on itself.",
             "info": {
                 "Name": "Tonietta",
                 "Type": "Chair",
